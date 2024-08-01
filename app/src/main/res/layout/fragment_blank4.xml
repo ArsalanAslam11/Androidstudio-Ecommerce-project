@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView86"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="2dp"
+                app:srcCompat="@drawable/sneaker1" />
+
+            <Button
+                android:id="@+id/button86"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView86"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="Black Sneakers\nBuy Now"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView87"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="2dp"
+                app:srcCompat="@drawable/whitesneakers" />
+
+
+            <Button
+                android:id="@+id/button87"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView87"
+                android:layout_alignEnd="@id/imageView87"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="White Sneakers \nBuy Now"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView88"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button86"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/redsneakers" />
+
+            <Button
+                android:id="@+id/button88"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView88"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="Red Sneakers\nBuy Now"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView89"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button87"
+                android:layout_alignEnd="@id/button87"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/orangesneakers" />
+
+            <Button
+                android:id="@+id/button89"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView89"
+                android:layout_alignEnd="@id/imageView89"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="Orange Sneakers\nBuy Now"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView90"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button88"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/pinksneakers" />
+
+            <Button
+                android:id="@+id/button90"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView90"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="Pink Sneakers\nBuy Now" />
+
+            <ImageView
+                android:id="@+id/imageView91"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button89"
+                android:layout_alignEnd="@id/button89"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/brownsneakers" />
+
+            <Button
+                android:id="@+id/button91"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Brown Sneakers \nBuy Now"
+                android:layout_below="@+id/imageView91"
+                android:layout_alignEnd="@id/imageView91"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:backgroundTint="@color/purple_light" />
+
+            <ImageView
+                android:id="@+id/imageView92"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button90"
+                android:layout_alignEnd="@id/button90"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/greensneakers" />
+
+            <Button
+                android:id="@+id/button92"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView92"
+                android:layout_alignEnd="@id/imageView92"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:text="Green Sneakers\nBuy Now"
+                android:backgroundTint="@color/purple_light" />
+
+            <ImageView
+                android:id="@+id/imageView93"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button91"
+                android:layout_alignEnd="@id/button91"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/bluesneakers" />
+
+            <Button
+                android:id="@+id/button93"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Blue Sneakers\nBuy Now"
+                android:layout_below="@+id/imageView93"
+                android:layout_alignEnd="@id/imageView93"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:backgroundTint="@color/purple_light"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

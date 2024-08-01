@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView70"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="2dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/iphone11"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button70"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView70"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="I Phone 11\nBuy Now"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView71"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="2dp"
+                app:srcCompat="@drawable/sumsungs24"
+                tools:src="@tools:sample/avatars" />
+
+
+            <Button
+                android:id="@+id/button71"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView71"
+                android:layout_alignEnd="@id/imageView71"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="S24 Ultra \nBuy Now"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView72"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button70"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/sumsungs20" />
+
+            <Button
+                android:id="@+id/button72"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView72"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="S20\nBuy Now"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView73"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button71"
+                android:layout_alignEnd="@id/button71"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/iphone14pro"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button73"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView73"
+                android:layout_alignEnd="@id/imageView73"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="Iphone 14 Pro \nBuy Now"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button72"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/oneplus12"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button74"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView74"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="One Plus\nBuy Now" />
+
+            <ImageView
+                android:id="@+id/imageView75"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button73"
+                android:layout_alignEnd="@id/button73"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/oppoa57"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button75"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Oppo A57 \nBuy Now"
+                android:layout_below="@+id/imageView75"
+                android:layout_alignEnd="@id/imageView75"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:backgroundTint="@color/purple_light" />
+
+            <ImageView
+                android:id="@+id/imageView76"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button74"
+                android:layout_alignEnd="@id/button74"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/tecnopovaneo"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button76"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView76"
+                android:layout_alignEnd="@id/imageView76"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:text="Tecno Pova Neo \nBuy Now"
+                android:backgroundTint="@color/purple_light" />
+
+            <ImageView
+                android:id="@+id/imageView77"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button75"
+                android:layout_alignEnd="@id/button75"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/tecnosparkgo"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button77"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Tecno Spark Go \nBuy Now"
+                android:layout_below="@+id/imageView77"
+                android:layout_alignEnd="@id/imageView77"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:backgroundTint="@color/purple_light"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

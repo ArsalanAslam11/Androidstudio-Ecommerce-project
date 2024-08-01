@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView78"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="2dp"
+                app:srcCompat="@drawable/shirt8" />
+
+            <Button
+                android:id="@+id/button78"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView78"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="Polo Shirt\nBuy Now"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView79"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="2dp"
+                app:srcCompat="@drawable/shirt2" />
+
+
+            <Button
+                android:id="@+id/button79"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView79"
+                android:layout_alignEnd="@id/imageView79"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="Blue Shirt \nBuy Now"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView80"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button78"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/shirt9" />
+
+            <Button
+                android:id="@+id/button80"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView80"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="Tokyo Polo Shirt\nBuy Now"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView81"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button79"
+                android:layout_alignEnd="@id/button79"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/shirt6" />
+
+            <Button
+                android:id="@+id/button81"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView81"
+                android:layout_alignEnd="@id/imageView81"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="Pink Polo Shirt \nBuy Now"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView82"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button80"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/shirt5" />
+
+            <Button
+                android:id="@+id/button82"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView82"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:backgroundTint="@color/purple_light"
+                android:text="Black Polo Shirt \nBuy Now" />
+
+            <ImageView
+                android:id="@+id/imageView83"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button81"
+                android:layout_alignEnd="@id/button81"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/shirt4" />
+
+            <Button
+                android:id="@+id/button83"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Orange Tshirt \nBuy Now"
+                android:layout_below="@+id/imageView83"
+                android:layout_alignEnd="@id/imageView83"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:backgroundTint="@color/purple_light" />
+
+            <ImageView
+                android:id="@+id/imageView84"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button82"
+                android:layout_alignEnd="@id/button82"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/shirt10" />
+
+            <Button
+                android:id="@+id/button84"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView84"
+                android:layout_alignEnd="@id/imageView84"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:text="White Polo Shirt \nBuy Now"
+                android:backgroundTint="@color/purple_light" />
+
+            <ImageView
+                android:id="@+id/imageView85"
+                android:layout_width="180dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/button83"
+                android:layout_alignEnd="@id/button83"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/shirt" />
+
+            <Button
+                android:id="@+id/button85"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Black Tshirt\nBuy Now"
+                android:layout_below="@+id/imageView85"
+                android:layout_alignEnd="@id/imageView85"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:backgroundTint="@color/purple_light"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MCProject2"
+        tools:targetApi="31">
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt8cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt7cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt6cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt5cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt4cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt3cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt2cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt1cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shoes8cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shoes7cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shoes6cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shoes5cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shoes4cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shoes3cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shoes2cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shoes1cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone8cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone7cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone6cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone5cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone4cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone3cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone2cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shose1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shose2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shose3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shose4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shose5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shose6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shose7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shose8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Phone1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
